@@ -1,6 +1,7 @@
+from config import DISTANCE_MEASUREMENT_INTERVAL
 from gpiozero import DistanceSensor
 import time
-from config_1 import DISTANCE_MEASUREMENT_INTERVAL
+
 
 class DistanceSensor:
     def __init__(self, trig_pin, echo_pin):
